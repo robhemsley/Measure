@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>IDEO Labs - Measure</title>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
+</head>
+<body style="background-image: url(/static/img/grid-18px-masked.png); background-repeat: repeat-x;">
+
+<div class="container">
+  
+	<div class="row" id="login-container">
+    	<div class="span8 offset3">
+			<form action="measure" method="post" enctype="multipart/form-data" class="well" style="width:400px; margin-top:20px"> 
+				<h2>Measure</h2>
+				<br/>
+
+				<div id="all_targets">
+					<div id='target_1' class="well">
+						<h3>SVG Template Generator</h3></br>
+
+						<div class="control-group">
+							<label class="control-label" for="targetFile">Material Image:</label>
+							<div class="controls" style="padding-left:10px">
+								<input class="input-file" name="measure_img" id="targetFile" type="file">
+							 </div>
+						</div>		
+
+					</div>
+				</div>
+
+
+				<input type="submit" class="btn" value="Get JSON Data" style="margin-right:15px" />
+
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
